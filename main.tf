@@ -70,7 +70,7 @@ provider "luminate" {
 
 resource "luminate_web_application" "nginx" {
   name             = "GCP-SAC-CICD"
-  site_id          = [3c10ca64-d3fc-4347-a3af-e5570410c0f2]
+  site_id          = "3c10ca64-d3fc-4347-a3af-e5570410c0f2"
   internal_address = "http://127.0.0.1:8080"
 }
 
