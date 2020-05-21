@@ -53,6 +53,7 @@ boot_disk {
 network_interface {
     network    = var.network
     subnetwork = var.subnetwork
+    network_ip = "10.0.1.5"
   }
 
 metadata = {
