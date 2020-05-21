@@ -75,7 +75,7 @@ resource "luminate_web_application" "nginx" {
 }
 
 resource "luminate_web_access_policy" "web-access-policy" {
-  name                 = "Default WEB - Employees"
+  name                 = "Default WEB - DevOps"
   identity_provider_id = data.luminate_identity_provider.idp.identity_provider_id
   user_ids             = data.luminate_user.users.user_ids
   group_ids            = data.luminate_group.groups.group_ids
