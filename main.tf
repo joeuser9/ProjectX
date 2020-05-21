@@ -33,7 +33,6 @@ resource "random_id" "instance_id" {
 data "template_file" "startup_script" {
   template = file("scripts/install-deps.tpl")
   vars = {
-    connector_command = luminate_connector.connector.command
     git_repo = var.git_repo
     git_branch = var.git_branch
   }
