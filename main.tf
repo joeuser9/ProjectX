@@ -67,19 +67,10 @@ provider "luminate" {
   api_endpoint = "api.${var.tenant_domain}"
 }
 
-resource "luminate_site" "site" {
-  name = "GCP-CICD-Site"
-}
-
-resource "luminate_connector" "connector" {
-  name    = "gcp-cicd-site-connector"
-  site_id = luminate_site.site.id
-  type    = "linux"
-}
 
 resource "luminate_web_application" "nginx" {
   name             = "GCP-SAC-CICD"
-  site_id          = luminate_site.site.id
+  site_id          = [3c10ca64-d3fc-4347-a3af-e5570410c0f2]
   internal_address = "http://127.0.0.1:8080"
 }
 
