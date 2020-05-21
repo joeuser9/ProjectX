@@ -54,8 +54,6 @@ boot_disk {
 network_interface {
     network    = var.network
     subnetwork = var.subnetwork
-    access_config {
-    }
   }
 
 metadata = {
