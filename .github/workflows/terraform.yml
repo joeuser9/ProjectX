@@ -23,7 +23,7 @@ jobs:
       run: |
           mkdir -p .terraform/plugins/linux_amd64/
           cd .terraform/plugins/linux_amd64/
-          curl -L https://github.com/mwins21/sac-group-update/releases/download/v2/terraform-provider-luminate.zip -o terraform-provider-luminate-linux.zip
+          curl -L https://github.com/Broadcom/terraform-provider-luminate/releases/download/1.0.8/terraform-provider-luminate-linux.zip -o terraform-provider-luminate-linux.zip
           unzip terraform-provider-luminate-linux.zip
           rm terraform-provider-luminate-linux.zip         
     - name: Verify Terraform version
