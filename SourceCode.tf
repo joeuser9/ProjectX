@@ -128,7 +128,7 @@ public class CreateWebSource
           "en"
         );
         System.out.println("Web Source XML = \n" + oo.getObjectXML() );
- 
+                 
         // 3. Create a source group for the source
         String sourceGroupXML = 
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
