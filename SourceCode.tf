@@ -6,7 +6,7 @@ Secure Enterprise Search Administration API Guide
 ContentsPreviousNextPage 176 of 183
 Search 
 Table of Contents
-1
+
 openOracle Secure Enterprise Search Administration API Guide
 openPreface
 openUsing the Administration API
